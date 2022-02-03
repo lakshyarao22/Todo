@@ -9,5 +9,8 @@ case "$SHELL" in
   ;;
 esac
 touch ~/TodoList
+cd ..
+rm -rf Todo
+clear
 echo -e "\e[1;34m Congratulations!! \e[0m"
 echo -e "Now use \e[1;31m todo party tonight \e[0m to add a reminder to party"
