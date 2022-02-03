@@ -1,0 +1,7 @@
+#!/bin/sh
+if [[ -z "$*" ]]; then
+  exec lvim ~/TodoList
+else
+  echo "     $*" >> ~/TodoList
+  echo -e "Added \e[1;31m $* \e[0m To TodoList"
+fi
